@@ -6,5 +6,7 @@ public class Demo {
 
 
         System.out.println("This is GIT Class....");
+
+        System.out.println("This is Demo of commit....");
     }
 }
