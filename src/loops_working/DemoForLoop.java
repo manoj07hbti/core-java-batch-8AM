@@ -1,6 +1,6 @@
 package loops_working;
 
-public class Demo {
+public class DemoForLoop {
 
     public static void main(String[] args) {
 
