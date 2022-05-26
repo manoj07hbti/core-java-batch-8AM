@@ -1,5 +1,6 @@
 package scanner_demo;
 
+
 import java.util.Scanner;
 
 public class DemoScanner {
