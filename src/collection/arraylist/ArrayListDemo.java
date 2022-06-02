@@ -17,6 +17,9 @@ public class ArrayListDemo {
         mylist.add(33);// 3 index
         mylist.add("4.7");
         mylist.add("A");
+        mylist.add("Java");
+        mylist.add("Java");
+        mylist.add("Java");
 
         // get object from list
         System.out.println( mylist.get(0));
