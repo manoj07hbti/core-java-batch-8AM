@@ -1,5 +1,7 @@
 package exception_handling;
 
+import java.util.ArrayList;
+
 public class DemoExcpetion {
 
     public int divide(int a, int b)
@@ -21,6 +23,20 @@ public class DemoExcpetion {
         return result;
     }
 
+    public void checkSize(){
+
+        ArrayList <String> list= new ArrayList<>();
+        System.out.println("before calling   ....");
+        try {
+            list.get(0);
+        }
+        catch (Exception e){
+            System.out.println("Exception occurred "+e);
+        }
+
+        System.out.println("after calling  ....");
+    }
+
     public static void main(String[] args) {
 
 
@@ -29,6 +45,8 @@ public class DemoExcpetion {
         int result= obj.divide(10,0);
         System.out.println("Division of a and b : "+result);
         System.out.println("after calling divide method ....");
+
+        obj.checkSize();
     }
 
 }
